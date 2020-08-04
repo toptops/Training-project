@@ -20,7 +20,7 @@ public class ValidCode {
 		String username = request.getParameter("username");
 		char[] password = request.getParameter("password").toCharArray();
 		boolean rememberMe = Boolean.valueOf(request.getParameter("rememberme"));
-		LoginServie loginService = new LoginServiceImpl();
+		LoginServie loginService = new LoginServie();
 		boolean validated = false;
 		
 		if(rememberMe) {

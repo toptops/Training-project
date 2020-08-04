@@ -19,7 +19,7 @@ public class badCode {
 		char[] password = request.getParameter("password").toCharArray();
 		boolean rememberMe = Boolean.valueOf(request.getParameter("rememberme"));
 		
-		LoginServie loginService = new LoginServiceImpl();
+		LoginServie loginService = new LoginServie();
 		if(rememberMe) {
 			if(request.getCookies()[0] != null && request.getCookies()[0].getValue() != null) {
 				String[] value = request.getCookies()[0].getValue().split(";");

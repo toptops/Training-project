@@ -1,4 +1,4 @@
-package com.network.pratice.designPattern.singleThreadExecution;
+package com.network.pratice.designPattern.singleThreadExecution.fail;
 
 public class FailMain {
 	public static void main(String[] args) {

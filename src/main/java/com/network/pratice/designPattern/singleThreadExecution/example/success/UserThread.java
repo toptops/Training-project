@@ -1,4 +1,4 @@
-package com.network.pratice.designPattern.singleThreadExecution.success;
+package com.network.pratice.designPattern.singleThreadExecution.example.success;
 
 public class UserThread extends Thread{
 	private final Gate gate;

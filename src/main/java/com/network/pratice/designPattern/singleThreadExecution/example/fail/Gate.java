@@ -1,11 +1,11 @@
-package com.network.pratice.designPattern.singleThreadExecution.success;
+package com.network.pratice.designPattern.singleThreadExecution.example.fail;
 
 public class Gate {
 	private long index = 0;
 	private String name ="Nobody";
 	private String address = "Nowhere";
 	
-	public synchronized void pass(String name, String address) {
+	public void pass(String name, String address) {
 		this.index++;
 		this.name = name;
 		this.address = address;
@@ -19,7 +19,7 @@ public class Gate {
 	}
 	
 	@Override
-	public synchronized String toString() {
+	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		return sb.append("No.")
 				 .append(this.index)

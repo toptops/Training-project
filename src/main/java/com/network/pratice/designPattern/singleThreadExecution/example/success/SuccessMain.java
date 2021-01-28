@@ -1,7 +1,7 @@
-package com.network.pratice.designPattern.singleThreadExecution.success;
+package com.network.pratice.designPattern.singleThreadExecution.example.success;
 
-import com.network.pratice.designPattern.singleThreadExecution.success.Gate;
-import com.network.pratice.designPattern.singleThreadExecution.success.UserThread;
+import com.network.pratice.designPattern.singleThreadExecution.example.success.Gate;
+import com.network.pratice.designPattern.singleThreadExecution.example.success.UserThread;
 
 public class SuccessMain {
 	public static void main(String[] args) {
